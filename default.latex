@@ -7,7 +7,7 @@ $if(fontfamily)$
 $else$
 \usepackage{lmodern}
 $endif$
-$if(linestretch)$
+$if(linestretch)$ 
 \usepackage{setspace}
 \setstretch{$linestretch$}
 $endif$
